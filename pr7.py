@@ -16,6 +16,8 @@ popularity = [22.2, 17.6, 8.8, 8, 7.7, 6.7]
 
 plt.subplot(2,2,2)
 plt.title("Bar Chart")
+plt.xlabel("Languages")
+plt.ylabel("Popularity")
 plt.bar(languages,popularity)
 
 #c 
